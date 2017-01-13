@@ -11,4 +11,4 @@ Student Info
 =======================
 
 * Name: Nguyen Thanh Long
-* ID: USTHBI6-088
+* ID:   USTHBI6-088
