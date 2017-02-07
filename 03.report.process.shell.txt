@@ -1,0 +1,239 @@
+1.
+~$ ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.1 119568  5608 ?        Ss   08:07   0:01 /sbin/init spla
+root         2  0.0  0.0      0     0 ?        S    08:07   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    08:07   0:00 [ksoftirqd/0]
+root         4  0.0  0.0      0     0 ?        S    08:07   0:01 [kworker/0:0]
+root         5  0.0  0.0      0     0 ?        S<   08:07   0:00 [kworker/0:0H]
+root         6  0.0  0.0      0     0 ?        S    08:07   0:00 [kworker/u8:0]
+root         7  0.0  0.0      0     0 ?        S    08:07   0:00 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    08:07   0:00 [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S    08:07   0:00 [migration/0]
+root        10  0.0  0.0      0     0 ?        S    08:07   0:00 [watchdog/0]
+root        11  0.0  0.0      0     0 ?        S    08:07   0:00 [watchdog/1]
+root        12  0.0  0.0      0     0 ?        S    08:07   0:00 [migration/1]
+root        13  0.0  0.0      0     0 ?        S    08:07   0:00 [ksoftirqd/1]
+root        15  0.0  0.0      0     0 ?        S<   08:07   0:00 [kworker/1:0H]
+root        16  0.0  0.0      0     0 ?        S    08:07   0:00 [watchdog/2]
+root        17  0.0  0.0      0     0 ?        S    08:07   0:00 [migration/2]
+root        18  0.0  0.0      0     0 ?        S    08:07   0:00 [ksoftirqd/2]
+root        20  0.0  0.0      0     0 ?        S<   08:07   0:00 [kworker/2:0H]
+root        21  0.0  0.0      0     0 ?        S    08:07   0:00 [watchdog/3]
+root        22  0.0  0.0      0     0 ?        S    08:07   0:00 [migration/3]
+root        23  0.0  0.0      0     0 ?        S    08:07   0:00 [ksoftirqd/3]
+root        25  0.0  0.0      0     0 ?        S<   08:07   0:00 [kworker/3:0H]
+root        26  0.0  0.0      0     0 ?        S    08:07   0:00 [kdevtmpfs]
+root        27  0.0  0.0      0     0 ?        S<   08:07   0:00 [netns]
+root        28  0.0  0.0      0     0 ?        S<   08:07   0:00 [perf]
+root        29  0.0  0.0      0     0 ?        S    08:07   0:00 [khungtaskd]
+root        30  0.0  0.0      0     0 ?        S<   08:07   0:00 [writeback]
+root        31  0.0  0.0      0     0 ?        SN   08:07   0:00 [ksmd]
+root        32  0.0  0.0      0     0 ?        SN   08:07   0:00 [khugepaged]
+root        33  0.0  0.0      0     0 ?        S<   08:07   0:00 [crypto]
+root        34  0.0  0.0      0     0 ?        S<   08:07   0:00 [kintegrityd]
+root        35  0.0  0.0      0     0 ?        S<   08:07   0:00 [bioset]
+root        36  0.0  0.0      0     0 ?        S<   08:07   0:00 [kblockd]
+root        37  0.0  0.0      0     0 ?        S<   08:07   0:00 [ata_sff]
+root        38  0.0  0.0      0     0 ?        S<   08:07   0:00 [md]
+root        39  0.0  0.0      0     0 ?        S<   08:07   0:00 [devfreq_wq]
+root        46  0.0  0.0      0     0 ?        S    08:07   0:00 [kswapd0]
+root        47  0.0  0.0      0     0 ?        S<   08:07   0:00 [vmstat]
+root        48  0.0  0.0      0     0 ?        S    08:07   0:00 [fsnotify_mark]
+root        49  0.0  0.0      0     0 ?        S    08:07   0:00 [ecryptfs-kthre
+root        65  0.0  0.0      0     0 ?        S<   08:07   0:00 [kthrotld]
+root        66  0.0  0.0      0     0 ?        S<   08:07   0:00 [acpi_thermal_p
+root        67  0.0  0.0      0     0 ?        S<   08:07   0:00 [bioset]
+root        68  0.0  0.0      0     0 ?        S<   08:07   0:00 [bioset]
+root        69  0.0  0.0      0     0 ?        S<   08:07   0:00 [bioset]
+root        70  0.0  0.0      0     0 ?        S<   08:07   0:00 [bioset]
+root        71  0.0  0.0      0     0 ?        S<   08:07   0:00 [bioset]
+root        72  0.0  0.0      0     0 ?        S<   08:07   0:00 [bioset]
+root        73  0.0  0.0      0     0 ?        S<   08:07   0:00 [bioset]
+root        74  0.0  0.0      0     0 ?        S<   08:07   0:00 [bioset]
+root        75  0.0  0.0      0     0 ?        S<   08:07   0:00 [bioset]
+root        76  0.0  0.0      0     0 ?        S<   08:07   0:00 [bioset]
+root        77  0.0  0.0      0     0 ?        S<   08:07   0:00 [bioset]
+root        78  0.0  0.0      0     0 ?        S<   08:07   0:00 [bioset]
+root        79  0.0  0.0      0     0 ?        S<   08:07   0:00 [bioset]
+root        80  0.0  0.0      0     0 ?        S<   08:07   0:00 [bioset]
+root        81  0.0  0.0      0     0 ?        S<   08:07   0:00 [bioset]
+root        82  0.0  0.0      0     0 ?        S<   08:07   0:00 [bioset]
+root        83  0.0  0.0      0     0 ?        S<   08:07   0:00 [bioset]
+root        84  0.0  0.0      0     0 ?        S<   08:07   0:00 [bioset]
+root        85  0.0  0.0      0     0 ?        S<   08:07   0:00 [bioset]
+root        86  0.0  0.0      0     0 ?        S<   08:07   0:00 [bioset]
+root        87  0.0  0.0      0     0 ?        S<   08:07   0:00 [bioset]
+root        88  0.0  0.0      0     0 ?        S<   08:07   0:00 [bioset]
+root        89  0.0  0.0      0     0 ?        S<   08:07   0:00 [bioset]
+root        90  0.0  0.0      0     0 ?        S<   08:07   0:00 [bioset]
+root        96  0.0  0.0      0     0 ?        S<   08:07   0:00 [ipv6_addrconf]
+root       109  0.0  0.0      0     0 ?        S<   08:07   0:00 [deferwq]
+root       110  0.0  0.0      0     0 ?        S<   08:07   0:00 [charger_manage
+root       114  0.0  0.0      0     0 ?        S    08:07   0:00 [kworker/1:2]
+root       151  0.0  0.0      0     0 ?        S    08:07   0:00 [kworker/3:1]
+root       152  0.0  0.0      0     0 ?        S<   08:07   0:00 [kpsmoused]
+root       153  0.0  0.0      0     0 ?        S    08:07   0:00 [scsi_eh_0]
+root       154  0.0  0.0      0     0 ?        S<   08:07   0:00 [scsi_tmf_0]
+root       155  0.0  0.0      0     0 ?        S    08:07   0:00 [scsi_eh_1]
+root       156  0.0  0.0      0     0 ?        S<   08:07   0:00 [scsi_tmf_1]
+root       157  0.0  0.0      0     0 ?        S    08:07   0:00 [scsi_eh_2]
+root       158  0.0  0.0      0     0 ?        S<   08:07   0:00 [scsi_tmf_2]
+root       159  0.0  0.0      0     0 ?        S    08:07   0:00 [scsi_eh_3]
+root       160  0.0  0.0      0     0 ?        S<   08:07   0:00 [scsi_tmf_3]
+root       161  0.0  0.0      0     0 ?        S    08:07   0:00 [kworker/u8:3]
+root       166  0.0  0.0      0     0 ?        S<   08:07   0:00 [bioset]
+root       169  0.0  0.0      0     0 ?        S<   08:07   0:00 [ttm_swap]
+root       191  0.0  0.0      0     0 ?        S<   08:07   0:00 [kworker/2:1H]
+root       193  0.0  0.0      0     0 ?        S    08:07   0:00 [jbd2/sda4-8]
+root       194  0.0  0.0      0     0 ?        S<   08:07   0:00 [ext4-rsv-conve
+root       219  0.0  0.1  32128  4040 ?        Ss   08:07   0:00 /lib/systemd/sy
+root       223  0.0  0.0      0     0 ?        S    08:07   0:00 [kauditd]
+root       262  0.0  0.0      0     0 ?        S<   08:07   0:00 [kworker/0:1H]
+root       267  0.0  0.1  46212  5372 ?        Ss   08:07   0:01 /lib/systemd/sy
+root       286  0.0  0.0      0     0 ?        S<   08:07   0:00 [kworker/1:1H]
+root       370  0.0  0.0      0     0 ?        S    08:07   0:00 [irq/47-mei_me]
+systemd+   439  0.0  0.0 102384  2568 ?        Ssl  08:07   0:00 /lib/systemd/sy
+root       452  0.0  0.0      0     0 ?        S<   08:07   0:00 [cfg80211]
+root       495  0.0  0.0      0     0 ?        S<   08:07   0:00 [kworker/u9:0]
+root       496  0.0  0.0      0     0 ?        S<   08:07   0:00 [hci0]
+root       497  0.0  0.0      0     0 ?        S<   08:07   0:00 [hci0]
+root       498  0.0  0.0      0     0 ?        S<   08:07   0:00 [kworker/u9:1]
+root       502  0.1  0.0      0     0 ?        S    08:07   0:01 [irq/50-iwlwifi
+root       505  0.0  0.0      0     0 ?        S<   08:07   0:00 [kworker/3:1H]
+root       510  0.0  0.0      0     0 ?        S<   08:07   0:00 [kvm-irqfd-clea
+root       691  0.0  0.0      0     0 ?        S<   08:07   0:00 [kmemstick]
+root       692  0.0  0.0      0     0 ?        S    08:07   0:00 [rtsx_usb_ms_1]
+root       916  0.0  0.0   4400  1304 ?        Ss   08:07   0:00 /usr/sbin/acpid
+whoopsie   917  0.0  0.3 373980 14344 ?        Ssl  08:07   0:00 /usr/bin/whoops
+root       918  0.0  0.2 337464  8520 ?        Ssl  08:07   0:00 /usr/sbin/Modem
+root       922  0.0  0.0  30536  3032 ?        Ss   08:07   0:00 /usr/sbin/cron 
+root       924  0.0  0.1  31956  4208 ?        Ss   08:07   0:00 /usr/lib/blueto
+message+   925  0.0  0.1  44340  5056 ?        Ss   08:07   0:00 /usr/bin/dbus-d
+root       951  0.0  0.4 223768 18412 ?        Ssl  08:07   0:00 /usr/lib/snapd/
+root       954  0.0  0.4 450676 16464 ?        Ssl  08:07   0:00 /usr/sbin/Netwo
+root       967  0.0  0.0  28636  3156 ?        Ss   08:07   0:00 /lib/systemd/sy
+root       970  0.0  0.1 277400  6456 ?        Ssl  08:07   0:00 /usr/lib/accoun
+syslog     971  0.0  0.0 256396  3516 ?        Ssl  08:07   0:00 /usr/sbin/rsysl
+root       986  0.0  0.2 167960  8724 ?        Ssl  08:07   0:00 /usr/sbin/therm
+avahi      989  0.0  0.0  44920  3184 ?        Ss   08:07   0:00 avahi-daemon: r
+root      1004  0.0  0.2 283420  8556 ?        Ssl  08:07   0:00 /usr/lib/policy
+root      1048  0.0  0.0  19600  2280 ?        Ss   08:07   0:00 /usr/sbin/irqba
+root      1051  0.0  0.1 350408  6136 ?        SLsl 08:07   0:00 /usr/sbin/light
+avahi     1061  0.0  0.0  44788   340 ?        S    08:07   0:00 avahi-daemon: c
+root      1063  0.0  0.2 274820  9444 ?        Ssl  08:07   0:00 /usr/sbin/cups-
+root      1080  3.0  1.9 434636 75932 tty7     Ssl+ 08:07   0:42 /usr/lib/xorg/X
+root      1107  0.0  0.0  17468  1812 tty1     Ss+  08:07   0:00 /sbin/agetty --
+root      1132  0.0  0.1  44024  6484 ?        Ss   08:07   0:00 /sbin/wpa_suppl
+root      1218  0.0  0.0  16120  3608 ?        S    08:07   0:00 /sbin/dhclient 
+nobody    1229  0.0  0.1  54396  4124 ?        S    08:07   0:00 /usr/sbin/dnsma
+root      1302  0.0  0.2 230304  8496 ?        Sl   08:07   0:00 lightdm --sessi
+root      1360  0.0  0.3 348784 12004 ?        Ssl  08:07   0:00 /usr/lib/upower
+rtkit     1370  0.0  0.0 183544  3052 ?        SNsl 08:07   0:00 /usr/lib/rtkit/
+colord    1399  0.0  0.3 302684 12992 ?        Ssl  08:07   0:00 /usr/lib/colord
+root      1419  0.0  0.0      0     0 ?        S<   08:07   0:00 [krfcommd]
+clarentz  1437  0.0  0.1  45372  4636 ?        Ss   08:07   0:00 /lib/systemd/sy
+clarentz  1438  0.0  0.0  63184  1828 ?        S    08:07   0:00 (sd-pam)
+clarentz  1444  0.0  0.2 354208  8928 ?        Sl   08:07   0:00 /usr/bin/gnome-
+clarentz  1446  0.0  0.1  48004  4652 ?        Ss   08:07   0:00 /sbin/upstart -
+clarentz  1511  0.0  0.0  34388   280 ?        S    08:07   0:00 upstart-udev-br
+clarentz  1525  0.0  0.1  43892  4192 ?        Ss   08:07   0:00 dbus-daemon --f
+clarentz  1537  0.0  0.2  87876  8888 ?        Ss   08:07   0:00 /usr/lib/x86_64
+clarentz  1555  0.1  0.1 421040  7512 ?        Ssl  08:07   0:02 /usr/bin/ibus-d
+clarentz  1563  0.0  0.0  34324   300 ?        S    08:07   0:00 upstart-dbus-br
+clarentz  1565  0.0  0.0  34324   292 ?        S    08:07   0:00 upstart-dbus-br
+clarentz  1570  0.0  0.0  42816   392 ?        S    08:07   0:00 upstart-file-br
+clarentz  1574  0.0  0.1 276048  6336 ?        Sl   08:07   0:00 /usr/lib/gvfs/g
+clarentz  1580  0.0  0.1 406860  5272 ?        Sl   08:07   0:00 /usr/lib/gvfs/g
+clarentz  1583  0.0  0.1 265784  6080 ?        Sl   08:07   0:00 /usr/lib/ibus/i
+clarentz  1586  0.0  0.7 471572 28720 ?        Sl   08:07   0:00 /usr/lib/ibus/i
+clarentz  1605  0.0  0.5 422112 20232 ?        Sl   08:07   0:00 /usr/lib/ibus/i
+clarentz  1608  0.0  0.0 168068   680 ?        Ss   08:07   0:00 gpg-agent --hom
+clarentz  1616  0.0  0.1 189916  5260 ?        Sl   08:07   0:00 /usr/lib/ibus/i
+clarentz  1625  0.0  0.6 518036 26892 ?        Ssl  08:07   0:01 /usr/lib/x86_64
+clarentz  1639  0.1  1.0 719184 42460 ?        Ssl  08:07   0:01 /usr/lib/x86_64
+clarentz  1641  0.0  0.9 932892 38480 ?        Ssl  08:07   0:00 /usr/lib/unity-
+clarentz  1647  0.0  0.1 338000  5852 ?        Ssl  08:07   0:00 /usr/lib/at-spi
+clarentz  1648  0.0  0.4 559528 16656 ?        Ssl  08:07   0:00 /usr/lib/gnome-
+clarentz  1655  0.1  0.8 559640 34700 ?        Ssl  08:07   0:01 /usr/lib/x86_64
+clarentz  1657  0.0  0.1  42900  3964 ?        S    08:07   0:00 /usr/bin/dbus-d
+clarentz  1664  0.0  0.1 206860  5004 ?        Sl   08:07   0:00 /usr/lib/at-spi
+clarentz  1675  0.0  0.1 355948  6976 ?        Ssl  08:07   0:00 /usr/lib/x86_64
+clarentz  1676  0.0  0.1 408648  7688 ?        Ssl  08:07   0:00 /usr/lib/x86_64
+clarentz  1677  0.0  0.2 504640 10476 ?        Ssl  08:07   0:00 /usr/lib/x86_64
+clarentz  1687  0.0  0.4 1234492 18632 ?       Ssl  08:07   0:00 /usr/lib/x86_64
+clarentz  1688  0.0  0.7 651484 28100 ?        Ssl  08:07   0:00 /usr/lib/x86_64
+clarentz  1689  0.0  0.2 665152 10572 ?        Ssl  08:07   0:00 /usr/lib/x86_64
+clarentz  1690  0.0  0.6 541828 24808 ?        Ssl  08:07   0:00 /usr/lib/x86_64
+clarentz  1691  0.0  0.1 954400  6464 ?        Ssl  08:07   0:00 /usr/lib/x86_64
+clarentz  1708  0.0  0.3 395940 12644 ?        Ssl  08:07   0:00 /usr/lib/x86_64
+clarentz  1731  0.2  0.2 510412 11616 ?        S<l  08:07   0:03 /usr/bin/pulsea
+clarentz  1738  0.0  0.2 341732 10156 ?        Sl   08:07   0:00 /usr/lib/geoclu
+clarentz  1741  0.0  0.1 178760  4876 ?        Sl   08:07   0:00 /usr/lib/dconf/
+clarentz  1752  0.0  0.0  22372  1160 ?        S    08:07   0:00 syndaemon -i 1.
+clarentz  1755  0.0  0.6 622828 24664 ?        Sl   08:07   0:00 /usr/lib/evolut
+clarentz  1802  0.0  0.2 429572 11856 ?        Sl   08:07   0:00 /usr/lib/x86_64
+clarentz  1808  0.1  2.3 1303428 91476 ?       Sl   08:07   0:02 /usr/bin/gnome-
+clarentz  1813  0.0  0.4 423628 19484 ?        Sl   08:07   0:00 /usr/lib/policy
+clarentz  1814  0.0  0.5 571132 20288 ?        Sl   08:07   0:00 /usr/lib/unity-
+clarentz  1815  0.0  0.8 657388 33560 ?        Sl   08:07   0:00 nm-applet
+clarentz  1816  0.4  1.3 1235084 53756 ?       Sl   08:07   0:06 nautilus -n
+clarentz  1829  0.0  0.1 360704  7848 ?        Sl   08:07   0:00 /usr/lib/gvfs/g
+root      1838  0.0  0.2 367736  8812 ?        Ssl  08:07   0:00 /usr/lib/udisks
+clarentz  1840  2.2  3.6 1274972 142816 ?      Ssl  08:07   0:30 compiz
+clarentz  1852  0.0  0.1 261168  4968 ?        Sl   08:07   0:00 /usr/lib/gvfs/g
+clarentz  1857  0.0  0.1 273364  5540 ?        Sl   08:07   0:00 /usr/lib/gvfs/g
+clarentz  1865  0.0  0.2 405140  8900 ?        Sl   08:07   0:00 /usr/lib/gvfs/g
+clarentz  1871  0.0  0.1 259060  7124 ?        Sl   08:07   0:00 /usr/lib/gvfs/g
+clarentz  1877  0.0  1.5 857336 61344 ?        Sl   08:07   0:00 /usr/lib/evolut
+root      1880  0.0  0.8 628752 35160 ?        Sl   08:07   0:00 /usr/lib/x86_64
+clarentz  1891  0.0  0.2 352096  8532 ?        Sl   08:07   0:00 /usr/lib/gvfs/g
+clarentz  1902  0.0  1.2 883096 49876 ?        Sl   08:07   0:00 /usr/lib/evolut
+clarentz  1914  0.0  0.4 692132 18184 ?        Sl   08:07   0:00 /usr/lib/evolut
+clarentz  1916  0.0  1.3 1064088 53748 ?       Sl   08:07   0:00 /usr/lib/evolut
+clarentz  1933  0.0  0.4 767632 18444 ?        Sl   08:07   0:00 /usr/lib/evolut
+clarentz  1944  0.0  0.1 187636  5532 ?        Sl   08:07   0:00 /usr/lib/gvfs/g
+clarentz  1999  0.0  0.2 354464  8848 ?        Sl   08:07   0:00 /usr/lib/gvfs/g
+root      2025  0.0  0.0  14348  2816 ?        Ss   08:08   0:00 /sbin/mount.ntf
+clarentz  2048  0.0  0.2 363248  8600 ?        Sl   08:08   0:00 /usr/lib/gvfs/g
+clarentz  2053  0.0  0.4 576676 17196 ?        Sl   08:08   0:00 zeitgeist-datah
+clarentz  2060  0.0  0.0   4508   772 ?        S    08:08   0:00 /bin/sh -c /usr
+clarentz  2064  0.0  0.1 410220  7312 ?        Sl   08:08   0:00 /usr/bin/zeitge
+clarentz  2071  0.0  0.3 317188 14916 ?        Sl   08:08   0:00 /usr/lib/x86_64
+clarentz  2164  0.0  0.6 518292 27332 ?        Sl   08:08   0:00 update-notifier
+clarentz  2198  0.0  0.1 436972  6976 ?        Sl   08:09   0:00 /usr/lib/x86_64
+root      2221  0.0  0.0  13952  2496 ?        Ss   08:10   0:00 /sbin/mount.ntf
+clarentz  2278 45.8 30.4 2281132 1206104 ?     Rl   08:12   8:30 /usr/lib/firefo
+clarentz  2307  0.0  0.1  62828  5324 ?        S    08:12   0:00 /usr/lib/x86_64
+root      2384  0.0  0.0      0     0 ?        S    08:14   0:00 [kworker/u8:1]
+root      2385  0.0  0.0      0     0 ?        S    08:14   0:00 [kworker/1:0]
+root      2462  0.0  0.0      0     0 ?        S    08:17   0:00 [kworker/2:0]
+clarentz  2487  0.3  1.6 1050668 66088 ?       Sl   08:19   0:02 evince /media/c
+clarentz  2494  0.0  0.1 178496  4004 ?        Sl   08:19   0:00 /usr/lib/evince
+root      2567  0.0  0.0      0     0 ?        S    08:22   0:00 [kworker/2:1]
+root      2595  0.0  0.0      0     0 ?        S    08:22   0:00 [kworker/0:1]
+root      2611  0.0  0.0      0     0 ?        S    08:23   0:00 [kworker/3:0]
+clarentz  2621  0.1  1.6 1020064 65320 ?       Sl   08:25   0:00 unity-control-c
+root      2650  0.0  0.0      0     0 ?        S    08:26   0:00 [kworker/u8:2]
+clarentz  2657  0.0  0.7 481144 29624 ?        Sl   08:27   0:00 /usr/lib/x86_64
+root      2666  0.0  0.0      0     0 ?        S    08:27   0:00 [kworker/2:2]
+root      2667  0.0  0.0      0     0 ?        S    08:27   0:00 [kworker/0:2]
+root      2671  0.0  0.0      0     0 ?        S    08:27   0:00 [kworker/1:1]
+root      2687  0.0  0.0      0     0 ?        S    08:29   0:00 [kworker/3:2]
+clarentz  2689  0.6  0.9 649552 35960 ?        Sl   08:29   0:00 gedit /media/cl
+clarentz  2733  2.6  0.9 653860 36528 ?        Rl   08:30   0:00 /usr/lib/gnome-
+clarentz  2740  0.5  0.1  24068  5032 pts/0    Ss   08:30   0:00 bash
+clarentz  2750  0.0  0.0  38892  3196 pts/0    R+   08:30   0:00 ps aux
+
+2.
+~$ gnome-calculator
+
+** (gnome-calculator:2810): WARNING **: currency.vala:407: Currency LTL is not provided by IMF or ECB
+
+3.
+~$ ps aux | grep gnomecalculator
+clarentz  2918  0.0  0.0  15752   936 pts/0    S+   08:38   0:00 grep --color=auto gnomecalculator
+
+4.
+
+
