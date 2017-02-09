@@ -1,0 +1,64 @@
+1.
+~$ cat /proc/sched_debug | grep "systemd"
+   systemd-udevd   265       612.268513       746   120       129.189445      1103.104893  12798391.269691 0 0 /autogroup-12
+         systemd     1       475.187205      2426   120       100.243668      1516.979926  12805197.227767 0 0 /autogroup-2
+ systemd-journal   241       176.802100      2418   120        79.084953       644.294306  12827980.302208 0 0 /autogroup-9
+         systemd  1354        28.255539        27   120         5.970503        29.420653  11941201.679025 0 0 /autogroup-97
+  systemd-logind   864        24.721615      2953   120        47.514036        81.237027  12726561.227754 0 0 /autogroup-40
+
+
+2.
+~$ cat /proc/1354/sched
+systemd (1354, #threads: 1)
+-------------------------------------------------------------------
+se.exec_start                                :      11995089.332764
+se.vruntime                                  :            28.255539
+se.sum_exec_runtime                          :            29.420653
+se.statistics.sum_sleep_runtime              :      11941201.679025
+se.statistics.wait_start                     :             0.000000
+se.statistics.sleep_start                    :      11995089.332764
+se.statistics.block_start                    :             0.000000
+se.statistics.sleep_max                      :       3203136.500782
+se.statistics.block_max                      :            22.918462
+se.statistics.exec_max                       :             4.000257
+se.statistics.slice_max                      :             1.835674
+se.statistics.wait_max                       :             2.070720
+se.statistics.wait_sum                       :             5.970503
+se.statistics.wait_count                     :                   35
+se.statistics.iowait_sum                     :             0.000000
+se.statistics.iowait_count                   :                    0
+se.nr_migrations                             :                   16
+se.statistics.nr_migrations_cold             :                    0
+se.statistics.nr_failed_migrations_affine    :                    0
+se.statistics.nr_failed_migrations_running   :                   22
+se.statistics.nr_failed_migrations_hot       :                    0
+se.statistics.nr_forced_migrations           :                    0
+se.statistics.nr_wakeups                     :                   22
+se.statistics.nr_wakeups_sync                :                    1
+se.statistics.nr_wakeups_migrate             :                    8
+se.statistics.nr_wakeups_local               :                   14
+se.statistics.nr_wakeups_remote              :                    8
+se.statistics.nr_wakeups_affine              :                    6
+se.statistics.nr_wakeups_affine_attempts     :                   12
+se.statistics.nr_wakeups_passive             :                    0
+se.statistics.nr_wakeups_idle                :                    0
+avg_atom                                     :             1.089653
+avg_per_cpu                                  :             1.838790
+nr_switches                                  :                   27
+nr_voluntary_switches                        :                   23
+nr_involuntary_switches                      :                    4
+se.load.weight                               :                 1024
+se.avg.load_sum                              :              3959945
+se.avg.util_sum                              :              3819657
+se.avg.load_avg                              :                   82
+se.avg.util_avg                              :                   80
+se.avg.last_update_time                      :       11995089332764
+policy                                       :                    0
+prio                                         :                  120
+clock-delta                                  :                   41
+mm->numa_scan_seq                            :                    0
+numa_pages_migrated                          :                    0
+numa_preferred_nid                           :                   -1
+total_numa_faults                            :                    0
+current_node=0, numa_group_id=0
+numa_faults node=0 task_private=0 task_shared=0 group_private=0 group_shared=0
